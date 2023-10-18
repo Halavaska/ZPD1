@@ -15,4 +15,4 @@
     #čau mani sauc oskars un man ir 17.
 
     for i in range(3):
-        print(f"čau mani sauc {names(i)}un man ir {ages(i)} gadu")
+        print(f"čau mani sauc {names[i]}un man ir {ages[i]} gadu")
