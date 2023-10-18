@@ -6,7 +6,7 @@
 #### spēles loģistika
 dators ģenerē 1-100 ciparu
 spēles loģistika ir labi aprakstīta šeit
-```py
+``py
 import random
 
 number = random.randint(1,100)
