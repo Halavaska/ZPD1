@@ -3,6 +3,7 @@
 ### saturs
 
 #### aprakstīt spēli 
+interesanta spēle kas atista loģiku
 #### spēles loģistika
 dators ģenerē 1-100 ciparu
 spēles loģistika ir labi aprakstīta šeit
@@ -16,16 +17,16 @@ spēles loģistika ir labi aprakstīta šeit
 
     while  guess!= number:
     if guess < number:
-    print ("pamēģini lielāku")
+      print ("pamēģini lielāku")
     else:
-     print("pamēģini zemāk")
+      print("pamēģini zemāk")
 
     guess = int(input("uzmini skaitli :"))
     tries.append(guess)
     else:
-    print(f"you win from {len(tries)} tries!")
-    print("here is your guessing history")
-    print(tries)
+      print(f"you win from {len(tries)} tries!")
+      print("here is your guessing history")
+      print(tries)
 
     sum_of_differences = 0
 
@@ -34,4 +35,4 @@ spēles loģistika ir labi aprakstīta šeit
 
     print(f"average diferance was {sum_of_differences/len(tries)}")
     
-#### utt
+
